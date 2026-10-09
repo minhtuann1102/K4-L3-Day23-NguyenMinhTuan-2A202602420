@@ -1,0 +1,98 @@
+[
+  {
+    "n": 1,
+    "id": "acl2026-vprm",
+    "url": "https://aclanthology.org/2026.findings-acl.1611.pdf",
+    "title": "Verifiable Process Reward Models for Structured Reasoning",
+    "date": "2026-01-01",
+    "source": "web"
+  },
+  {
+    "n": 2,
+    "id": "arxiv-2601-07182",
+    "url": "https://arxiv.org/html/2601.07182v3",
+    "title": "PRPO: Aligning Process Reward with Outcome Reward in Policy Optimization",
+    "date": "2026-01-15",
+    "source": "web"
+  },
+  {
+    "n": 3,
+    "id": "arxiv:2501.12948",
+    "url": "https://arxiv.org/html/2501.12948v1",
+    "title": "DeepSeek-R1: Incentivizing Reasoning Capability in LLMs via Reinforcement Learning",
+    "date": "2025-01-20",
+    "source": "arxiv"
+  },
+  {
+    "n": 4,
+    "id": "arxiv-2411-11694",
+    "url": "https://arxiv.org/abs/2411.11694",
+    "title": "STILL-1: Self-Correction and Test-Time Compute in Large Language Models",
+    "date": "2024-11-01",
+    "source": "arxiv"
+  },
+  {
+    "n": 5,
+    "id": "arxiv-2505-18065",
+    "url": "https://arxiv.org/html/2505.18065v1",
+    "title": "Process Reward Models and Stepwise Verification in Multi-Step Reasoning",
+    "date": "2025-05-01",
+    "source": "arxiv"
+  },
+  {
+    "n": 6,
+    "id": "mlr-qu25g",
+    "url": "https://proceedings.mlr.press/v267/qu25g.html",
+    "title": "Compute-Aware Tree Search (CATS): Optimizing Test-Time Compute Allocation",
+    "date": "2025-01-01",
+    "source": "web"
+  },
+  {
+    "n": 7,
+    "id": "arxiv:2409.12122",
+    "url": "https://arxiv.org/html/2409.12122v1",
+    "title": "Qwen2.5-Math Technical Report: Toward Mathematical Expert Model via Self-Improvement",
+    "date": "2024-09-18",
+    "source": "arxiv"
+  },
+  {
+    "n": 8,
+    "id": "arxiv-2602-09305",
+    "url": "https://arxiv.org/html/2602.09305v2",
+    "title": "Reward Modeling for Reinforcement Learning-Based LLM Reasoning",
+    "date": "2026-02-01",
+    "source": "web"
+  },
+  {
+    "n": 9,
+    "id": "tsinghua-sppo-pupo",
+    "url": "https://nicsefc.ee.tsinghua.edu.cn/nics_file/pdf/c7763c3b-8fe9-4a69-9dc8-3b934957e4a6.pdf",
+    "title": "Is DPO Superior to PPO for LLM Alignment? A Comprehensive Study",
+    "date": "2024-06-01",
+    "source": "web"
+  },
+  {
+    "n": 10,
+    "id": "acl2026-sppo",
+    "url": "https://aclanthology.org/2026.acl-long.356.pdf",
+    "title": "SPPO: Sequence-Level PPO for Long-Horizon Reasoning Tasks",
+    "date": "2026-01-01",
+    "source": "web"
+  },
+  {
+    "n": 11,
+    "id": "interconnects-qstar",
+    "url": "https://www.interconnects.ai/p/q-star",
+    "title": "Understanding Q* and Reward-Guided Search in Large Language Models",
+    "date": "2024-03-01",
+    "source": "web"
+  },
+  {
+    "n": 12,
+    "id": "hf-search-still",
+    "url": "https://huggingface.co/papers/2503.07572",
+    "title": "Hugging Face Daily Papers: Scaling Test-Time Compute with Reinforcement Learning",
+    "date": "2025-03-07",
+    "source": "hf-search"
+  }
+]

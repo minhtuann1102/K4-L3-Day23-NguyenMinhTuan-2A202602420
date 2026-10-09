@@ -1,0 +1,50 @@
+[
+  {
+    "n": 1,
+    "id": "2308.11432",
+    "url": "https://arxiv.org/abs/2308.11432",
+    "title": "A Survey on Large Language Model based Autonomous Agents",
+    "date": "2023-08-23",
+    "source": "arxiv"
+  },
+  {
+    "n": 2,
+    "id": "2302.04761",
+    "url": "https://arxiv.org/abs/2302.04761",
+    "title": "Toolformer: Language Models Can Teach Themselves to Use Tools",
+    "date": "2023-02-09",
+    "source": "arxiv"
+  },
+  {
+    "n": 3,
+    "id": "2307.16789",
+    "url": "https://arxiv.org/abs/2307.16789",
+    "title": "ToolLLM: Facilitating Large Language Models to Master 16,464 Real-world APIs",
+    "date": "2023-07-31",
+    "source": "arxiv"
+  },
+  {
+    "n": 4,
+    "id": "2304.08244",
+    "url": "https://arxiv.org/abs/2304.08244",
+    "title": "API-Bank: A Comprehensive Benchmark for Tool-Augmented LLMs",
+    "date": "2023-04-14",
+    "source": "arxiv"
+  },
+  {
+    "n": 5,
+    "id": "2305.16291",
+    "url": "https://arxiv.org/abs/2305.16291",
+    "title": "Voyager: An Open-Ended Embodied Agent with Large Language Models",
+    "date": "2023-05-25",
+    "source": "web"
+  },
+  {
+    "n": 6,
+    "id": "2305.15334",
+    "url": "https://arxiv.org/abs/2305.15334",
+    "title": "Gorilla: Large Language Model Connected with Massive APIs",
+    "date": "2023-05-24",
+    "source": "hf-search"
+  }
+]

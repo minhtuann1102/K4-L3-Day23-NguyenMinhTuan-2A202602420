@@ -1,0 +1,77 @@
+[
+  {
+    "n": 1,
+    "id": "01-architectures-and-scaling",
+    "url": "https://arxiv.org/abs/2403.08295",
+    "title": "Phi-3 Technical Report: Highly Capable Language Models Locally on Your Phone",
+    "date": "2024-04-23",
+    "source": "arxiv"
+  },
+  {
+    "n": 2,
+    "id": "2609-31009",
+    "url": "https://huggingface.co/papers/2609.31009",
+    "title": "G^2PTQ: Improving LLM Post-Training Quantization with Generalized Gradient Compensation",
+    "date": "2025-09-25",
+    "source": "hf-search"
+  },
+  {
+    "n": 3,
+    "id": "2504-12285",
+    "url": "https://arxiv.org/html/2504.12285v1",
+    "title": "BitNet b1.58 2B4T Technical Report & BitNet b1.58 Reloaded",
+    "date": "2025-04-14",
+    "source": "web"
+  },
+  {
+    "n": 4,
+    "id": "2602-02431",
+    "url": "https://medium.com/data-science-at-microsoft/a-practical-guide-to-int4-quantization-for-slms-gptq-vs-awq-olive-and-real-world-results-2f63d6963d1d",
+    "date": "2026-02-24",
+    "source": "web"
+  },
+  {
+    "n": 5,
+    "id": "2407-14679",
+    "url": "https://huggingface.co/papers/2407.14679",
+    "title": "Compact Language Models via Pruning and Knowledge Distillation (Minitron)",
+    "date": "2024-07-19",
+    "source": "hf-search"
+  },
+  {
+    "n": 6,
+    "id": "2306-08543",
+    "url": "https://huggingface.co/papers/2306-08543",
+    "title": "Knowledge Distillation of Large Language Models (MiniLLM)",
+    "date": "2023-06-14",
+    "source": "hf-search"
+  },
+  {
+    "n": 7,
+    "id": "flashattention-3",
+    "url": "https://arxiv.org/abs/2407.08608",
+    "date": "2024-07-14",
+    "source": "arxiv"
+  },
+  {
+    "n": 8,
+    "id": "pagedattention-vllm",
+    "url": "https://arxiv.org/abs/2309.06180",
+    "date": "2023-09-12",
+    "source": "arxiv"
+  },
+  {
+    "n": 9,
+    "id": "flexgen",
+    "url": "https://export.arxiv.org/pdf/2303.06865",
+    "date": "2023-03-09",
+    "source": "arxiv"
+  },
+  {
+    "n": 10,
+    "id": "vllm-anatomy-blog",
+    "url": "https://vllm.ai/blog/2025-09-05-anatomy-of-vllm",
+    "date": "2025-09-05",
+    "source": "web"
+  }
+]

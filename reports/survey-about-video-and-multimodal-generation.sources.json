@@ -1,0 +1,74 @@
+[
+  {
+    "n": 1,
+    "id": "video-foundations-survey",
+    "url": "https://arxiv.org/abs/2405.03150",
+    "title": "Foundations and Architectural Innovations in Video Diffusion and Autoregressive Models",
+    "date": "2024-05-06",
+    "source": "arxiv"
+  },
+  {
+    "n": 2,
+    "id": "sora-technical-report",
+    "url": "https://openai.com/index/video-generation-models-as-world-simulators/",
+    "title": "Video generation models as world simulators",
+    "date": "2024-02-15",
+    "source": "web"
+  },
+  {
+    "n": 3,
+    "id": "open-sora-2024",
+    "url": "https://arxiv.org/html/2403.05131v3",
+    "title": "Open-Sora: Democratizing Efficient Video Production for All",
+    "date": "2024-03-08",
+    "source": "arxiv"
+  },
+  {
+    "n": 4,
+    "id": "emu-video-2023",
+    "url": "https://huggingface.co/papers/2311.10709",
+    "title": "Emu Video: Factorizing Text-to-Video Generation by Explicit Image Conditioning",
+    "date": "2023-11-17",
+    "source": "hf-search"
+  },
+  {
+    "n": 5,
+    "id": "survey-video-conditioning-2025",
+    "url": "https://arxiv.org/abs/2507.16869",
+    "title": "A Comprehensive Survey on Controllable Video Generation: Mechanisms, Architectures, and Frameworks",
+    "date": "2026-01-19",
+    "source": "web"
+  },
+  {
+    "n": 6,
+    "id": "humo-2025",
+    "url": "https://huggingface.co/papers/2509.08519",
+    "title": "HuMo: Human-Centric Video Generation via Collaborative Multi-Modal Conditioning",
+    "date": "2025-09-10",
+    "source": "hf-search"
+  },
+  {
+    "n": 7,
+    "id": "evalcrafter-2024",
+    "url": "https://arxiv.org/abs/2310.11440",
+    "title": "EvalCrafter: Benchmarking and Evaluating Large Video Generation Models",
+    "date": "2024-04-10",
+    "source": "arxiv"
+  },
+  {
+    "n": 8,
+    "id": "vbench-2024",
+    "url": "https://arxiv.org/abs/2406.15252",
+    "title": "VBench: Comprehensive Benchmark Suite for Video Generative Models",
+    "date": "2024-06-20",
+    "source": "arxiv"
+  },
+  {
+    "n": 9,
+    "id": "grace-latent-compression-2026",
+    "url": "https://arxiv.org/abs/2610.10524",
+    "title": "Generation-Aware Latent Compression for Efficient Video Diffusion Transformers",
+    "date": "2026-10-10",
+    "source": "arxiv"
+  }
+]

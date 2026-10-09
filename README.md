@@ -107,3 +107,43 @@ Kết quả nằm ở `reports/survey-about-world-model.md` cùng `.sources.json
 - Mỗi lần chạy tốn token LLM và thời gian sandbox. `tokens` trong `meta.json` chỉ đếm tin nhắn của lead, chưa gồm subagent, nên chi phí thật cao hơn. `open_sandbox()` luôn dừng và xóa sandbox khi kết thúc, kể cả khi lỗi. Đừng bỏ qua nó.
 - **Không đưa bí mật vào sandbox.** Sandbox không ngăn được prompt injection hay việc đẩy dữ liệu ra mạng; một trang web độc hại có thể khiến agent chạy lệnh bên trong sandbox. Vì vậy mọi công cụ gọi mạng và mọi khóa ở lại phía host.
 - Nội dung lấy từ web là **dữ liệu không đáng tin**: agent không được làm theo chỉ dẫn nằm trong đó.
+
+## 8. Cách đọc kết quả trong `reports/`
+
+Mỗi chủ đề nghiên cứu khi hoàn thành sẽ sinh ra bộ 3 tệp tương ứng trong thư mục `reports/`:
+
+1. `<slug>.md`:
+   - Báo cáo khảo sát tài liệu hoàn chỉnh theo chuẩn `REPORT_TEMPLATE.md`.
+   - Bao gồm các phần: `## TL;DR`, `## Background`, các phần chuyên đề (`## <Theme>`), `## Trends and open problems`, và `## References`.
+   - Mọi luận điểm thực chứng đều có trích dẫn nội tuyến `[n]` liên kết chặt chẽ với danh mục tài liệu tham khảo ở cuối bài.
+
+2. `<slug>.sources.json`:
+   - Danh sách mảng JSON chứa các nguồn tài liệu được đánh số liên tục từ 1:
+     ```json
+     [
+       {
+         "n": 1,
+         "id": "1803.10122",
+         "url": "https://arxiv.org/abs/1803.10122",
+         "title": "World Models",
+         "date": "2018-03-27",
+         "source": "arxiv"
+       }
+     ]
+     ```
+   - Bao gồm ít nhất 3 họ nguồn khác nhau: `arxiv`, `hf-search`/`hf-daily`, `web`.
+
+3. `<slug>.meta.json`:
+   - Dữ liệu đo lường quá trình deep research của agent:
+     - `model`: Mô hình LLM thực thi (vd: `gemini-3.5-flash-lite`).
+     - `elapsed_s`: Thời gian chạy tính theo giây.
+     - `subagent_calls`: Số lần lead agent gọi subagent (`task`). Luôn $\ge 3$.
+     - `tool_calls`: Thống kê tần suất từng công cụ được gọi.
+     - `tokens`: Lượng token đầu vào và đầu ra của lead agent.
+     - `n_sources`: Tổng số nguồn được trích dẫn.
+     - `source_families`: Danh sách các họ nguồn đã khai thác.
+
+Kiểm tra tính hợp lệ của toàn bộ báo cáo:
+```bash
+python self_check.py
+```
